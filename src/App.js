@@ -1,24 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Login from "./routes/user/Login";
+import Home from "./routes/user/Home";
+// import SelectJijum from "./routes/user/SelectJijum";
+import SelectCurl from "./routes/user/SelectCurl";
+import SelectTime from "./routes/user/SelectTime";
+import SelectPay from "./routes/user/SelectPay";
+import PayCash from "./routes/user/PayCash";
+import PayCard from "./routes/user/PayCard";
+import useCurls from "./routes/user/UseCurl";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Login />} />
+        {/* <Route path="/SelectJijum" element={<SelectJijum />} /> */}
+        <Route path="/home" element={<Home />} />
+        <Route path="/SelectCurl" element={<SelectCurl />} />
+        <Route path="/:curl/SelectTime" element={<SelectTime />} />
+        <Route path="/:curl/:time/SelectPay" element={<SelectPay />} />
+        <Route path="/:curl/:time/pay" element={<PayCard />} />
+        {/* <Route path="/:curl/:time/카드" element={<PayCard />} /> */}
+      </Routes>
+    </Router>
   );
 }
 
