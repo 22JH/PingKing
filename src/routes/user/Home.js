@@ -5,7 +5,7 @@ import { useNavigate, useParams } from "react-router-dom";
 const container = css`
   height: 1920px;
   width: 1080px;
-  background-color: pink;
+  background-color: #d2c6e1;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,16 +15,17 @@ const container = css`
 const textDeco = css`
   font-size: 50px;
   font-weight: bolder;
-  color: rgb(255, 255, 255);
+  color: #fefefe;
   animation: GgamBBak 1.5s infinite;
   @keyframes GgamBBak {
-  50% {
-    opacity: 0;
+    50% {
+      opacity: 0;
+    }
   }
 `;
 const img = css`
-  width: 50%;
-  height: 50%;
+  width: 45vh;
+  height: 45vh;
   margin-bottom: 100px;
 `;
 
