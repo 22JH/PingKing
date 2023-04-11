@@ -1,70 +1,24 @@
-# Getting Started with Create React App
+## 현재 진행 상황
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+스켈레톤 코드 및 로직 완성
 
-## Available Scripts
+결제시스템에서 easy-pay의 SDK를 받기위해선 PG사와 MOU 맺어야 함.
 
-In the project directory, you can run:
+## 남은 작업
 
-### `npm start`
+node-js 서버 구축
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+아두이노 연동 (Johnny-Five 라이브러리 사용)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 현재 키오스크 상황
+- 라즈베리파이4 , ram 2gb ( Raspbian 세팅 완료 )
+<img src="https://user-images.githubusercontent.com/101423695/231194926-6d1c6df3-471b-4c6a-81af-83ebc8bc4b8d.jpg" width="auto" height="400"/>
 
-### `npm test`
+- 릴레이모듈
+<img src="https://user-images.githubusercontent.com/101423695/231195731-1191250b-cf04-478a-92fb-c62578541be6.jpg" width="auto" height="400"/>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- 아두이노
+<img src="https://user-images.githubusercontent.com/101423695/231195896-9f3704c0-b634-448f-80a2-d6c269799323.jpg" width="auto" height="400"/>
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- 파워 // 빵판
+<img src="https://user-images.githubusercontent.com/101423695/231196129-815e0c27-aaf9-4575-8c8d-fdd405fb58ce.jpg" width="auto" height="400"/>
